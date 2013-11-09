@@ -1,0 +1,68 @@
+﻿Build started 11/9/2013 7:32:18 PM.
+     1>Project "C:\Users\Angus\Documents\GitHub\libssh2\win32\libssh2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\win32 /I..\include /Zi /nologo /W3 /WX- /MP /Od /Ob1 /Oy- /D WIN32 /D NDEBUG /D LIBSSH2_WIN32 /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_lib\\" /Fd".\Release_lib\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\agent.c ..\src\channel.c ..\src\comp.c ..\src\crypt.c ..\src\global.c ..\src\hostkey.c ..\src\keepalive.c ..\src\kex.c ..\src\knownhost.c ..\src\libgcrypt.c ..\src\mac.c ..\src\misc.c ..\src\openssl.c ..\src\packet.c ..\src\pem.c ..\src\publickey.c ..\src\scp.c ..\src\session.c ..\src\sftp.c ..\src\transport.c ..\src\userauth.c ..\src\version.c
+         agent.c
+         channel.c
+         comp.c
+         crypt.c
+         global.c
+         hostkey.c
+         keepalive.c
+         kex.c
+         knownhost.c
+     1>..\src\keepalive.c(94): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+         libgcrypt.c
+         mac.c
+         misc.c
+         openssl.c
+         packet.c
+         pem.c
+         publickey.c
+         scp.c
+         session.c
+         sftp.c
+         transport.c
+     1>..\src\scp.c(730): warning C4244: '=' : conversion from 'long' to 'unsigned short', possible loss of data
+         userauth.c
+     1>..\src\session.c(1482): warning C4018: '>' : signed/unsigned mismatch
+     1>..\src\session.c(1487): warning C4018: '>' : signed/unsigned mismatch
+     1>..\src\sftp.c(1310): warning C4244: 'initializing' : conversion from 'libssh2_uint64_t' to 'size_t', possible loss of data
+     1>..\src\sftp.c(1833): warning C4244: '=' : conversion from 'libssh2_uint64_t' to 'size_t', possible loss of data
+     1>..\src\sftp.c(2755): warning C4244: '=' : conversion from 'libssh2_uint64_t' to 'unsigned int', possible loss of data
+     1>..\src\sftp.c(2868): warning C4244: '=' : conversion from 'libssh2_uint64_t' to 'unsigned int', possible loss of data
+         version.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Release_lib\libssh2.lib" C:\Users\Angus\Documents\GitHub\libssh2\win32\..\..\openssl\out32\libeay32.lib /NOLOGO .\Release_lib\agent.obj
+         .\Release_lib\channel.obj
+         .\Release_lib\comp.obj
+         .\Release_lib\crypt.obj
+         .\Release_lib\global.obj
+         .\Release_lib\hostkey.obj
+         .\Release_lib\keepalive.obj
+         .\Release_lib\kex.obj
+         .\Release_lib\knownhost.obj
+         .\Release_lib\libgcrypt.obj
+         .\Release_lib\mac.obj
+         .\Release_lib\misc.obj
+         .\Release_lib\openssl.obj
+         .\Release_lib\packet.obj
+         .\Release_lib\pem.obj
+         .\Release_lib\publickey.obj
+         .\Release_lib\scp.obj
+         .\Release_lib\session.obj
+         .\Release_lib\sftp.obj
+         .\Release_lib\transport.obj
+         .\Release_lib\userauth.obj
+         .\Release_lib\version.obj
+     1>libeay32.lib(fips_ers.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libeay32.lib(ecp_nistp224.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libeay32.lib(ecp_nistp256.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libeay32.lib(ecp_nistp521.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libeay32.lib(ecp_nistputil.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libssh2.vcxproj -> C:\Users\Angus\Documents\GitHub\libssh2\win32\.\Release_lib\libssh2.lib
+     1>Done Building Project "C:\Users\Angus\Documents\GitHub\libssh2\win32\libssh2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.93
